@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "naughty",
+  "version": "1.0",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.instagram.com/*",
+    "https://*.twitter.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "description": "Redirects Instagram and Twitter to a specific URL."
+}
